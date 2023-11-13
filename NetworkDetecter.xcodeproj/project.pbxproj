@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C63034A2B00F58A004292B2 /* SimpleTracer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6303472B00F58A004292B2 /* SimpleTracer.swift */; };
+		4C63034E2B00FD9B004292B2 /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C63034C2B00FD9B004292B2 /* SimplePing.m */; };
+		4C6303512B00FEE9004292B2 /* NetworkTraceRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6303502B00FEE9004292B2 /* NetworkTraceRouter.swift */; };
 		4C9B1473293CBCA40014FA6D /* NetworkDetecterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9B1472293CBCA40014FA6D /* NetworkDetecterApp.swift */; };
-		4C9B1475293CBCA40014FA6D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9B1474293CBCA40014FA6D /* ContentView.swift */; };
+		4C9B1475293CBCA40014FA6D /* NetworkPingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9B1474293CBCA40014FA6D /* NetworkPingView.swift */; };
 		4C9B1477293CBCA60014FA6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C9B1476293CBCA60014FA6D /* Assets.xcassets */; };
 		4C9B147A293CBCA60014FA6D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C9B1479293CBCA60014FA6D /* Preview Assets.xcassets */; };
-		4C9B1484293CBCA60014FA6D /* NetworkDetecterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9B1483293CBCA60014FA6D /* NetworkDetecterTests.swift */; };
-		4C9B148E293CBCA60014FA6D /* NetworkDetecterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9B148D293CBCA60014FA6D /* NetworkDetecterUITests.swift */; };
-		4C9B1490293CBCA60014FA6D /* NetworkDetecterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9B148F293CBCA60014FA6D /* NetworkDetecterUITestsLaunchTests.swift */; };
+		4C9D112D293CCBC7001B5042 /* SwiftyPing in Frameworks */ = {isa = PBXBuildFile; productRef = 4C9D112C293CCBC7001B5042 /* SwiftyPing */; };
+		5076C9F491BDBEB63063EF25 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5076C9A35DEBD00F4934CEC2 /* AboutView.swift */; };
+		5076CA53323C92C3FF8BC636 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5076CE48F2E21068E99B21BE /* MainView.swift */; };
+		5076CEC28704D0642B2DCCDE /* PingResultData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5076C29C9362AEE02CE846A7 /* PingResultData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +38,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C6303472B00F58A004292B2 /* SimpleTracer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SimpleTracer.swift; path = ../../../../SimpleTracer/Sources/SimpleTracer.swift; sourceTree = "<group>"; };
+		4C63034C2B00FD9B004292B2 /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
+		4C63034D2B00FD9B004292B2 /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
+		4C63034F2B00FE18004292B2 /* NetworkDetecter-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NetworkDetecter-Bridging-Header.h"; sourceTree = "<group>"; };
+		4C6303502B00FEE9004292B2 /* NetworkTraceRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTraceRouter.swift; sourceTree = "<group>"; };
 		4C9B146F293CBCA40014FA6D /* NetworkDetecter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkDetecter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C9B1472293CBCA40014FA6D /* NetworkDetecterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDetecterApp.swift; sourceTree = "<group>"; };
-		4C9B1474293CBCA40014FA6D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4C9B1474293CBCA40014FA6D /* NetworkPingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkPingView.swift; sourceTree = "<group>"; };
 		4C9B1476293CBCA60014FA6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C9B1479293CBCA60014FA6D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4C9B147F293CBCA60014FA6D /* NetworkDetecterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkDetecterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C9B1483293CBCA60014FA6D /* NetworkDetecterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDetecterTests.swift; sourceTree = "<group>"; };
 		4C9B1489293CBCA60014FA6D /* NetworkDetecterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkDetecterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4C9B148D293CBCA60014FA6D /* NetworkDetecterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDetecterUITests.swift; sourceTree = "<group>"; };
-		4C9B148F293CBCA60014FA6D /* NetworkDetecterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDetecterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5076C29C9362AEE02CE846A7 /* PingResultData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PingResultData.swift; sourceTree = "<group>"; };
+		5076C9A35DEBD00F4934CEC2 /* AboutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		5076CE48F2E21068E99B21BE /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C9D112D293CCBC7001B5042 /* SwiftyPing in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,8 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				4C9B1471293CBCA40014FA6D /* NetworkDetecter */,
-				4C9B1482293CBCA60014FA6D /* NetworkDetecterTests */,
-				4C9B148C293CBCA60014FA6D /* NetworkDetecterUITests */,
 				4C9B1470293CBCA40014FA6D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,10 +102,18 @@
 		4C9B1471293CBCA40014FA6D /* NetworkDetecter */ = {
 			isa = PBXGroup;
 			children = (
+				4C63034F2B00FE18004292B2 /* NetworkDetecter-Bridging-Header.h */,
+				4C63034D2B00FD9B004292B2 /* SimplePing.h */,
+				4C63034C2B00FD9B004292B2 /* SimplePing.m */,
+				4C6303472B00F58A004292B2 /* SimpleTracer.swift */,
 				4C9B1472293CBCA40014FA6D /* NetworkDetecterApp.swift */,
-				4C9B1474293CBCA40014FA6D /* ContentView.swift */,
+				4C9B1474293CBCA40014FA6D /* NetworkPingView.swift */,
 				4C9B1476293CBCA60014FA6D /* Assets.xcassets */,
 				4C9B1478293CBCA60014FA6D /* Preview Content */,
+				5076C29C9362AEE02CE846A7 /* PingResultData.swift */,
+				5076CE48F2E21068E99B21BE /* MainView.swift */,
+				5076C9A35DEBD00F4934CEC2 /* AboutView.swift */,
+				4C6303502B00FEE9004292B2 /* NetworkTraceRouter.swift */,
 			);
 			path = NetworkDetecter;
 			sourceTree = "<group>";
@@ -108,23 +124,6 @@
 				4C9B1479293CBCA60014FA6D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		4C9B1482293CBCA60014FA6D /* NetworkDetecterTests */ = {
-			isa = PBXGroup;
-			children = (
-				4C9B1483293CBCA60014FA6D /* NetworkDetecterTests.swift */,
-			);
-			path = NetworkDetecterTests;
-			sourceTree = "<group>";
-		};
-		4C9B148C293CBCA60014FA6D /* NetworkDetecterUITests */ = {
-			isa = PBXGroup;
-			children = (
-				4C9B148D293CBCA60014FA6D /* NetworkDetecterUITests.swift */,
-				4C9B148F293CBCA60014FA6D /* NetworkDetecterUITestsLaunchTests.swift */,
-			);
-			path = NetworkDetecterUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +142,9 @@
 			dependencies = (
 			);
 			name = NetworkDetecter;
+			packageProductDependencies = (
+				4C9D112C293CCBC7001B5042 /* SwiftyPing */,
+			);
 			productName = NetworkDetecter;
 			productReference = 4C9B146F293CBCA40014FA6D /* NetworkDetecter.app */;
 			productType = "com.apple.product-type.application";
@@ -195,6 +197,7 @@
 				TargetAttributes = {
 					4C9B146E293CBCA40014FA6D = {
 						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1500;
 					};
 					4C9B147E293CBCA60014FA6D = {
 						CreatedOnToolsVersion = 14.1;
@@ -215,6 +218,9 @@
 				Base,
 			);
 			mainGroup = 4C9B1466293CBCA40014FA6D;
+			packageReferences = (
+				4C9D112B293CCBC7001B5042 /* XCRemoteSwiftPackageReference "SwiftyPing" */,
+			);
 			productRefGroup = 4C9B1470293CBCA40014FA6D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +263,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C9B1475293CBCA40014FA6D /* ContentView.swift in Sources */,
+				4C9B1475293CBCA40014FA6D /* NetworkPingView.swift in Sources */,
 				4C9B1473293CBCA40014FA6D /* NetworkDetecterApp.swift in Sources */,
+				5076CEC28704D0642B2DCCDE /* PingResultData.swift in Sources */,
+				5076CA53323C92C3FF8BC636 /* MainView.swift in Sources */,
+				4C63034A2B00F58A004292B2 /* SimpleTracer.swift in Sources */,
+				4C6303512B00FEE9004292B2 /* NetworkTraceRouter.swift in Sources */,
+				4C63034E2B00FD9B004292B2 /* SimplePing.m in Sources */,
+				5076C9F491BDBEB63063EF25 /* AboutView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +278,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C9B1484293CBCA60014FA6D /* NetworkDetecterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +285,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C9B148E293CBCA60014FA6D /* NetworkDetecterUITests.swift in Sources */,
-				4C9B1490293CBCA60014FA6D /* NetworkDetecterUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +423,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NetworkDetecter/Preview Content\"";
@@ -433,6 +443,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = pw.jonwinters.app.NetworkDetecter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "NetworkDetecter/NetworkDetecter-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -443,6 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NetworkDetecter/Preview Content\"";
@@ -462,6 +475,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = pw.jonwinters.app.NetworkDetecter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "NetworkDetecter/NetworkDetecter-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -583,6 +597,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4C9D112B293CCBC7001B5042 /* XCRemoteSwiftPackageReference "SwiftyPing" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/samiyr/SwiftyPing";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4C9D112C293CCBC7001B5042 /* SwiftyPing */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4C9D112B293CCBC7001B5042 /* XCRemoteSwiftPackageReference "SwiftyPing" */;
+			productName = SwiftyPing;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4C9B1467293CBCA40014FA6D /* Project object */;
 }
