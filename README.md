@@ -6,4 +6,4 @@ It's a simple network detect ios app without ads.
 developing
 
 
-![image](./Image/cover.png | width=500)
+![](./Image/cover.png | width=500)
